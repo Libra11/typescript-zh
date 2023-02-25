@@ -18,9 +18,10 @@ export default defineUserConfig({
         {
           text: "Handbook",
           collapsible: true,
-          children: ["/guide/basic.md", "/guide/test2.md"],
+          children: ["/guide/basic.md", "/guide/everydayTypes.md"],
         },
       ],
     },
+    sidebarDepth: 0,
   }),
 });
