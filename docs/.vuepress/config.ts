@@ -11,6 +11,7 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "Typescript中文",
   description: "这是我的第一个 VuePress 站点",
+  base: "/typescript-zh/",
   theme: defaultTheme({
     // 可折叠的侧边栏
     sidebar: {
