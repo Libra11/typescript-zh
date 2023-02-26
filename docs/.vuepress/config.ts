@@ -19,7 +19,16 @@ export default defineUserConfig({
         {
           text: "Handbook",
           collapsible: true,
-          children: ["/guide/basic.md", "/guide/everydayTypes.md"],
+          children: [
+            "/guide/basic.md",
+            "/guide/everydayTypes.md",
+            "/guide/narrowing.md",
+            {
+              text: "Advanced Types",
+              collapsible: true,
+              children: ["/guide/test.md"],
+            },
+          ],
         },
       ],
     },
