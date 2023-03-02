@@ -1,8 +1,3 @@
-###
- # @Author: Libra
- # @Date: 2023-02-26 11:02:28
- # @LastEditors: Libra
- # @Description: # 确保脚本抛出遇到的错误
 set -e
 
 # 生成静态文件
