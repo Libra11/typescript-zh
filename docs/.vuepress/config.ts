@@ -23,6 +23,7 @@ export default defineUserConfig({
             "/guide/basic.md",
             "/guide/everydayTypes.md",
             "/guide/narrowing.md",
+            "/guide/moreOnFunctions.md",
             {
               text: "Advanced Types",
               collapsible: true,
