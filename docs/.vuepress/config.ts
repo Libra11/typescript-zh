@@ -3,7 +3,7 @@
  * @Date: 2023-02-25 12:06:27
  * @LastEditors: Libra
  * @Description:
- * @FilePath: \typescript-zh\docs\.vuepress\config.ts
+ * @FilePath: /typescript-zh/docs/.vuepress/config.ts
  */
 import { defaultTheme, defineUserConfig } from "vuepress";
 
@@ -17,13 +17,14 @@ export default defineUserConfig({
     sidebar: {
       "/guide/": [
         {
-          text: "Handbook",
+          text: "指南",
           collapsible: true,
           children: [
             "/guide/basic.md",
             "/guide/everydayTypes.md",
             "/guide/narrowing.md",
             "/guide/moreOnFunctions.md",
+            "/guide/objectTypes.md",
             {
               text: "Advanced Types",
               collapsible: true,
