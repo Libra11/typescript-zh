@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-08af4371","path":"/guide/generics.html","title":"类型操作","lang":"zh-CN","frontmatter":{"lang":"zh-CN","title":"类型操作","description":"类型操作"},"headers":[],"git":{"updatedTime":1678761616000,"contributors":[{"name":"Libra","email":"libra085925@gmail.com","commits":1}]},"filePathRelative":"guide/generics.md","excerpt":""}');export{e as data};
