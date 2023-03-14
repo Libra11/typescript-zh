@@ -1,7 +1,9 @@
 ---
-lang: zh-CN
-title: 指南
-description: 页面的描述
+home: true
+heroImage: /images/logo.png
+tagline: typescript 中文翻译
+actions:
+  - text: 指南
+    link: /guide/basic.html
+    type: primary
 ---
-
-## Typescript 中文
