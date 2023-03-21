@@ -5,7 +5,7 @@
  * @Description:
  * @FilePath: /typescript-zh/docs/.vuepress/config.ts
  */
-import { defaultTheme, DefaultThemeOptions, defineUserConfig } from "vuepress";
+import { defaultTheme, defineUserConfig } from "vuepress";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export default defineUserConfig({
@@ -13,6 +13,7 @@ export default defineUserConfig({
   title: "Typescript中文",
   description: "这是我的第一个 VuePress 站点",
   base: "/typescript-zh/",
+  head: [["link", { rel: "icon", href: "/images/logo.png" }]],
   plugins: [
     // @ts-ignore
     searchProPlugin({
@@ -39,7 +40,7 @@ export default defineUserConfig({
             "/guide/moreOnFunctions.md",
             "/guide/objectTypes.md",
             {
-              text: "条件类型",
+              text: "类型操作",
               collapsible: true,
               children: [
                 "/guide/creatingTypesfromTypes.md",
