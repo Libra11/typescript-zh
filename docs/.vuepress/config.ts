@@ -53,6 +53,7 @@ export default defineUserConfig({
                 "/guide/templateLiteralTypes.md",
               ],
             },
+            "/guide/classes.md",
           ],
         },
       ],
